@@ -39,4 +39,10 @@ public class SortManager
     {
         LOGGER.info("SortManager()");
     }
+
+    /* ************ 普通 public *********** */
+    public void insertionSort(int[] A)
+    {
+        
+    }
 }
