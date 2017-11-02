@@ -1,5 +1,7 @@
 package sort;
 
+import org.jetbrains.annotations.Contract;
+
 import java.util.Random;
 import java.util.logging.Logger;
 
@@ -23,6 +25,7 @@ public class SortManager
             m_instance = new SortManager();
         }
 
+        @Contract(pure = true)
         SortManager getInstance()
         {
             return m_instance;
@@ -30,6 +33,7 @@ public class SortManager
     }
 
     /* *********** 静态 public ************** */
+    @Contract(pure = true)
     public static SortManager getInstance()
     {
         return EInstance.Instance.getInstance();
@@ -38,6 +42,7 @@ public class SortManager
     /* ************ 普通 private *********** */
     private int[] m_mergeL;
     private int[] m_mergeR;
+    private Random m_random = new Random();
 
     private SortManager() {}
 
@@ -133,8 +138,7 @@ public class SortManager
      */
     private int randomizePartition(int[] A, int left, int right)
     {
-        Random random = new Random();
-        int index = left + random.nextInt(right - left + 1);
+        int index = left + m_random.nextInt(right - left + 1);
         int temp = A[index];
         A[index] = A[right];
         A[right] = temp;
@@ -161,9 +165,17 @@ public class SortManager
         for (int i = 0, j = mid + 1; i < rLength; i++, j++)
             m_mergeR[i] = A[j];
 
+        int a = 0, b = 0;
         for (int i = left; i <= right; i++)
         {
-            
+            if (a < lLength && b == rLength)
+                A[i++] = m_mergeL[a++];
+            else if (a == lLength && b < rLength)
+                A[i++] = m_mergeR[b++];
+            else if (m_mergeL[a] <= m_mergeR[b])
+                A[i++] = m_mergeL[a++];
+            else
+                A[i++] = m_mergeR[b++];
         }
     }
 
