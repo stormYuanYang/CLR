@@ -358,6 +358,20 @@ public class SortManager
             maxHeapify1(A, i, A.length);
     }
 
+    /**
+     * 这个函数返回对应位数上的数字的值
+     *
+     * @param x 正整数x
+     * @param d 第几位从低到高从0开始,比如个位0,十位1...
+     * @return 对应位数上的数字的值(用byte足以存下)
+     */
+    private byte currentDigitValue(int x, int d) {
+        int q = 1;
+        for (int i = 0; i < d; i++)
+            q *= 10;
+        return (byte) (x / q % 10);
+    }
+
     /* ************ 普通 public *********** */
     /**
      * 插入排序：
@@ -473,5 +487,39 @@ public class SortManager
         // 写回原数组
         for (int i = 0; i < A.length; i++)
             A[i] = OUT[i];
+    }
+
+    /**
+     * 基数排序
+     * 对每个位进行排序，从低到高;要求子排序算法必须是稳定的
+     * @param A
+     */
+    public void radixSort(int[] A) {
+        radixSort(A, 10);// int用十进制表示不会超过10位
+    }
+
+    /**
+     * 对带排数组A进行基数排序(子排序算法采用计数排序)
+     *
+     * @param A 待排数组A
+     * @param d 数字的最高位数的数量(比如{1,100,999,56789}里d=5)
+     */
+    public void radixSort(int[] A, int d) {
+        int[] C = new int[10];//十进制{0,1,...,9}共10个字符
+        int[] OUT = new int[A.length];// 缓存输出结果
+        byte[] buf = new byte[A.length];//缓存当前位上的数字
+
+        for (int a = 0; a < d; a++) {
+            for (int i = 0; i < C.length; i++)
+                C[i] = 0;
+            for (int i = 0; i < A.length; i++)
+                C[buf[i] = currentDigitValue(A[i], a)]++;
+            for (int i = 1; i < C.length; i++)
+                C[i] += C[i - 1];
+            for (int i = A.length - 1; i >= 1; i--)
+                OUT[--C[buf[i]]] = A[i];
+            for (int i = 0; i < A.length; i++)
+                A[i] = OUT[i];
+        }
     }
 }
