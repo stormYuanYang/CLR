@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="169c2f77-1df1-410e-9a66-3ba9ca8f1d13" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CLR/sort/SortManager.class" afterPath="$PROJECT_DIR$/out/production/CLR/sort/SortManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="169c2f77-1df1-410e-9a66-3ba9ca8f1d13" name="Default" comment="" />
     <ignored path="CLR.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,7 +28,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
               <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -41,7 +40,38 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15792">
               <caret line="803" column="16" selection-start-line="803" selection-start-column="16" selection-end-line="803" selection-end-column="16" />
-              <folding />
+              <folding>
+                <element signature="e#0#40012#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#4246#4247#0" expanded="false" />
+                <element signature="e#4278#4279#0" expanded="false" />
+                <element signature="e#14985#14986#0" expanded="false" />
+                <element signature="e#15015#15016#0" expanded="false" />
+                <element signature="e#15343#15344#0" expanded="false" />
+                <element signature="e#15374#15375#0" expanded="false" />
+                <element signature="e#19907#19908#0" expanded="false" />
+                <element signature="e#19950#19951#0" expanded="false" />
+                <element signature="e#20319#20320#0" expanded="false" />
+                <element signature="e#20359#20360#0" expanded="false" />
+                <element signature="e#20831#20832#0" expanded="false" />
+                <element signature="e#20871#20872#0" expanded="false" />
+                <element signature="e#21348#21349#0" expanded="false" />
+                <element signature="e#21388#21389#0" expanded="false" />
+                <element signature="e#21879#21880#0" expanded="false" />
+                <element signature="e#21919#21920#0" expanded="false" />
+                <element signature="e#22432#22433#0" expanded="false" />
+                <element signature="e#22472#22473#0" expanded="false" />
+                <element signature="e#22924#22925#0" expanded="false" />
+                <element signature="e#22948#22949#0" expanded="false" />
+                <element signature="e#23994#23995#0" expanded="false" />
+                <element signature="e#24036#24037#0" expanded="false" />
+                <element signature="e#24380#24381#0" expanded="false" />
+                <element signature="e#24405#24406#0" expanded="false" />
+                <element signature="e#29974#29975#0" expanded="false" />
+                <element signature="e#30017#30018#0" expanded="false" />
+                <element signature="e#32148#32149#0" expanded="false" />
+                <element signature="e#32194#32195#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,7 +81,42 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1743">
               <caret line="123" column="36" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="36" />
-              <folding />
+              <folding>
+                <element signature="e#0#53706#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#11566#11567#0" expanded="false" />
+                <element signature="e#11597#11598#0" expanded="false" />
+                <element signature="e#26565#26566#0" expanded="false" />
+                <element signature="e#26601#26602#0" expanded="false" />
+                <element signature="e#40171#40172#0" expanded="false" />
+                <element signature="e#40220#40221#0" expanded="false" />
+                <element signature="e#40917#40918#0" expanded="false" />
+                <element signature="e#40958#40959#0" expanded="false" />
+                <element signature="e#41780#41781#0" expanded="false" />
+                <element signature="e#41834#41835#0" expanded="false" />
+                <element signature="e#43077#43078#0" expanded="false" />
+                <element signature="e#43127#43128#0" expanded="false" />
+                <element signature="e#44970#44971#0" expanded="false" />
+                <element signature="e#45051#45052#0" expanded="false" />
+                <element signature="e#51559#51560#0" expanded="false" />
+                <element signature="e#51621#51622#0" expanded="false" />
+                <element signature="e#51882#51883#0" expanded="false" />
+                <element signature="e#51946#51947#0" expanded="false" />
+                <element signature="e#52191#52192#0" expanded="false" />
+                <element signature="e#52255#52256#0" expanded="false" />
+                <element signature="e#52326#52327#0" expanded="false" />
+                <element signature="e#52394#52395#0" expanded="false" />
+                <element signature="e#52670#52671#0" expanded="false" />
+                <element signature="e#52739#52740#0" expanded="false" />
+                <element signature="e#52802#52803#0" expanded="false" />
+                <element signature="e#52848#52849#0" expanded="false" />
+                <element signature="e#53097#53098#0" expanded="false" />
+                <element signature="e#53158#53159#0" expanded="false" />
+                <element signature="e#53238#53239#0" expanded="false" />
+                <element signature="e#53302#53303#0" expanded="false" />
+                <element signature="e#53360#53361#0" expanded="false" />
+                <element signature="e#53422#53423#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,10 +127,17 @@
             <state relative-caret-position="2835">
               <caret line="522" column="9" selection-start-line="522" selection-start-column="9" selection-end-line="522" selection-end-column="9" />
               <folding>
+                <element signature="imports" expanded="false" />
                 <element signature="docComment;class#SortManager#0" expanded="false" />
                 <element signature="docComment;class#EInstance#0;class#SortManager#0" expanded="false" />
                 <element signature="class#EInstance#0;class#SortManager#0" expanded="false" />
+                <element signature="e#791#792#0" expanded="false" />
+                <element signature="e#845#846#0" expanded="false" />
+                <element signature="e#921#922#0" expanded="false" />
+                <element signature="e#962#963#0" expanded="false" />
                 <element signature="docComment;method#getInstance#0;class#SortManager#0" expanded="false" />
+                <element signature="e#1152#1153#0" expanded="false" />
+                <element signature="e#1207#1208#0" expanded="false" />
                 <element signature="docComment;method#SortManager#0;class#SortManager#0" expanded="false" />
                 <element signature="docComment;method#insertionSort#0;class#SortManager#0" expanded="false" />
                 <element signature="method#insertionSort#0;class#SortManager#0" expanded="false" />
@@ -82,8 +154,14 @@
                 <element signature="docComment;method#merge#0;class#SortManager#0" expanded="false" />
                 <element signature="method#merge#0;class#SortManager#0" expanded="false" />
                 <element signature="docComment;method#parentIndex#0;class#SortManager#0" expanded="false" />
+                <element signature="e#6401#6402#0" expanded="false" />
+                <element signature="e#6445#6446#0" expanded="false" />
                 <element signature="docComment;method#leftIndex#0;class#SortManager#0" expanded="false" />
+                <element signature="e#6624#6625#0" expanded="false" />
+                <element signature="e#6669#6670#0" expanded="false" />
                 <element signature="docComment;method#rightIndex#0;class#SortManager#0" expanded="false" />
+                <element signature="e#6849#6850#0" expanded="false" />
+                <element signature="e#6894#6895#0" expanded="false" />
                 <element signature="docComment;method#maxHeapify#0;class#SortManager#0" expanded="false" />
                 <element signature="method#maxHeapify#0;class#SortManager#0" expanded="false" />
                 <element signature="docComment;method#maxHeapify1#0;class#SortManager#0" expanded="false" />
@@ -93,8 +171,14 @@
                 <element signature="docComment;method#currentDigitValue#0;class#SortManager#0" expanded="false" />
                 <element signature="method#currentDigitValue#0;class#SortManager#0" expanded="false" />
                 <element signature="docComment;method#insertionSort#1;class#SortManager#0" expanded="false" />
+                <element signature="e#10171#10172#0" expanded="false" />
+                <element signature="e#10220#10221#0" expanded="false" />
                 <element signature="docComment;method#quickSort#1;class#SortManager#0" expanded="false" />
+                <element signature="e#10350#10351#0" expanded="false" />
+                <element signature="e#10395#10396#0" expanded="false" />
                 <element signature="docComment;method#randomizeQuickSort#1;class#SortManager#0" expanded="false" />
+                <element signature="e#10548#10549#0" expanded="false" />
+                <element signature="e#10602#10603#0" expanded="false" />
                 <element signature="docComment;method#mergeSort#1;class#SortManager#0" expanded="false" />
                 <element signature="method#mergeSort#1;class#SortManager#0" expanded="false" />
                 <element signature="docComment;method#heapSort#0;class#SortManager#0" expanded="false" />
@@ -102,16 +186,18 @@
                 <element signature="docComment;method#countingSort#0;class#SortManager#0" expanded="false" />
                 <element signature="method#countingSort#0;class#SortManager#0" expanded="false" />
                 <element signature="docComment;method#radixSort#0;class#SortManager#0" expanded="false" />
+                <element signature="e#13117#13118#0" expanded="false" />
+                <element signature="e#13168#13169#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchTree.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SearchTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tree/SearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="116" column="4" selection-start-line="116" selection-start-column="4" selection-end-line="116" selection-end-column="4" />
+            <state relative-caret-position="525">
+              <caret line="108" column="5" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
               <folding>
                 <element signature="docComment;class#SearchTree#0" expanded="false" />
                 <element signature="class#TreeNode#0;class#SearchTree#0" expanded="false" />
@@ -131,6 +217,61 @@
                 <element signature="method#transplant#0;class#SearchTree#0" expanded="false" />
                 <element signature="docComment;method#treeDelete#0;class#SearchTree#0" expanded="false" />
                 <element signature="method#treeDelete#0;class#SearchTree#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Graph.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/graph/Graph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Collection.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Java/jdk1.8.0_92/src.zip!/java/util/Collection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="452" column="9" selection-start-line="452" selection-start-column="9" selection-end-line="452" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Queue.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Java/jdk1.8.0_92/src.zip!/java/util/Queue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="180" column="12" selection-start-line="180" selection-start-column="12" selection-end-line="180" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Deque.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Java/jdk1.8.0_92/src.zip!/java/util/Deque.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="549">
+              <caret line="192" column="17" selection-start-line="192" selection-start-column="17" selection-end-line="192" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayDeque.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Java/jdk1.8.0_92/src.zip!/java/util/ArrayDeque.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="753" column="16" selection-start-line="753" selection-start-column="16" selection-end-line="753" selection-end-column="16" />
+              <folding>
+                <element signature="e#6490#6491#0" expanded="true" />
+                <element signature="e#6531#6532#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,6 +301,7 @@
         <option value="$PROJECT_DIR$/src/sort/SortManager.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Tree/SearchTree.java" />
+        <option value="$PROJECT_DIR$/src/graph/Graph.java" />
       </list>
     </option>
   </component>
@@ -206,11 +348,96 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
-        <subPane />
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CLR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CLR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CLR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CLR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CLR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CLR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CLR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CLR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CLR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CLR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CLR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="graph" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
@@ -682,12 +909,12 @@
       <workItem from="1510224128813" duration="161000" />
       <workItem from="1510562807722" duration="69000" />
       <workItem from="1510562906249" duration="7110000" />
-      <workItem from="1510890466023" duration="6000" />
+      <workItem from="1510890466023" duration="16458000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30807000" />
+    <option name="totallyTimeSpent" value="47259000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -700,25 +927,25 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26439232" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27239582" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27708334" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27708334" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910814" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910814" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
@@ -749,7 +976,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -757,7 +986,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15792">
           <caret line="803" column="16" selection-start-line="803" selection-start-column="16" selection-end-line="803" selection-end-column="16" />
-          <folding />
+          <folding>
+            <element signature="e#0#40012#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#4246#4247#0" expanded="false" />
+            <element signature="e#4278#4279#0" expanded="false" />
+            <element signature="e#14985#14986#0" expanded="false" />
+            <element signature="e#15015#15016#0" expanded="false" />
+            <element signature="e#15343#15344#0" expanded="false" />
+            <element signature="e#15374#15375#0" expanded="false" />
+            <element signature="e#19907#19908#0" expanded="false" />
+            <element signature="e#19950#19951#0" expanded="false" />
+            <element signature="e#20319#20320#0" expanded="false" />
+            <element signature="e#20359#20360#0" expanded="false" />
+            <element signature="e#20831#20832#0" expanded="false" />
+            <element signature="e#20871#20872#0" expanded="false" />
+            <element signature="e#21348#21349#0" expanded="false" />
+            <element signature="e#21388#21389#0" expanded="false" />
+            <element signature="e#21879#21880#0" expanded="false" />
+            <element signature="e#21919#21920#0" expanded="false" />
+            <element signature="e#22432#22433#0" expanded="false" />
+            <element signature="e#22472#22473#0" expanded="false" />
+            <element signature="e#22924#22925#0" expanded="false" />
+            <element signature="e#22948#22949#0" expanded="false" />
+            <element signature="e#23994#23995#0" expanded="false" />
+            <element signature="e#24036#24037#0" expanded="false" />
+            <element signature="e#24380#24381#0" expanded="false" />
+            <element signature="e#24405#24406#0" expanded="false" />
+            <element signature="e#29974#29975#0" expanded="false" />
+            <element signature="e#30017#30018#0" expanded="false" />
+            <element signature="e#32148#32149#0" expanded="false" />
+            <element signature="e#32194#32195#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -765,7 +1025,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1743">
           <caret line="123" column="36" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="36" />
-          <folding />
+          <folding>
+            <element signature="e#0#53706#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#11566#11567#0" expanded="false" />
+            <element signature="e#11597#11598#0" expanded="false" />
+            <element signature="e#26565#26566#0" expanded="false" />
+            <element signature="e#26601#26602#0" expanded="false" />
+            <element signature="e#40171#40172#0" expanded="false" />
+            <element signature="e#40220#40221#0" expanded="false" />
+            <element signature="e#40917#40918#0" expanded="false" />
+            <element signature="e#40958#40959#0" expanded="false" />
+            <element signature="e#41780#41781#0" expanded="false" />
+            <element signature="e#41834#41835#0" expanded="false" />
+            <element signature="e#43077#43078#0" expanded="false" />
+            <element signature="e#43127#43128#0" expanded="false" />
+            <element signature="e#44970#44971#0" expanded="false" />
+            <element signature="e#45051#45052#0" expanded="false" />
+            <element signature="e#51559#51560#0" expanded="false" />
+            <element signature="e#51621#51622#0" expanded="false" />
+            <element signature="e#51882#51883#0" expanded="false" />
+            <element signature="e#51946#51947#0" expanded="false" />
+            <element signature="e#52191#52192#0" expanded="false" />
+            <element signature="e#52255#52256#0" expanded="false" />
+            <element signature="e#52326#52327#0" expanded="false" />
+            <element signature="e#52394#52395#0" expanded="false" />
+            <element signature="e#52670#52671#0" expanded="false" />
+            <element signature="e#52739#52740#0" expanded="false" />
+            <element signature="e#52802#52803#0" expanded="false" />
+            <element signature="e#52848#52849#0" expanded="false" />
+            <element signature="e#53097#53098#0" expanded="false" />
+            <element signature="e#53158#53159#0" expanded="false" />
+            <element signature="e#53238#53239#0" expanded="false" />
+            <element signature="e#53302#53303#0" expanded="false" />
+            <element signature="e#53360#53361#0" expanded="false" />
+            <element signature="e#53422#53423#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -774,10 +1069,17 @@
         <state relative-caret-position="2835">
           <caret line="522" column="9" selection-start-line="522" selection-start-column="9" selection-end-line="522" selection-end-column="9" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="docComment;class#SortManager#0" expanded="false" />
             <element signature="docComment;class#EInstance#0;class#SortManager#0" expanded="false" />
             <element signature="class#EInstance#0;class#SortManager#0" expanded="false" />
+            <element signature="e#791#792#0" expanded="false" />
+            <element signature="e#845#846#0" expanded="false" />
+            <element signature="e#921#922#0" expanded="false" />
+            <element signature="e#962#963#0" expanded="false" />
             <element signature="docComment;method#getInstance#0;class#SortManager#0" expanded="false" />
+            <element signature="e#1152#1153#0" expanded="false" />
+            <element signature="e#1207#1208#0" expanded="false" />
             <element signature="docComment;method#SortManager#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#insertionSort#0;class#SortManager#0" expanded="false" />
             <element signature="method#insertionSort#0;class#SortManager#0" expanded="false" />
@@ -794,8 +1096,14 @@
             <element signature="docComment;method#merge#0;class#SortManager#0" expanded="false" />
             <element signature="method#merge#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#parentIndex#0;class#SortManager#0" expanded="false" />
+            <element signature="e#6401#6402#0" expanded="false" />
+            <element signature="e#6445#6446#0" expanded="false" />
             <element signature="docComment;method#leftIndex#0;class#SortManager#0" expanded="false" />
+            <element signature="e#6624#6625#0" expanded="false" />
+            <element signature="e#6669#6670#0" expanded="false" />
             <element signature="docComment;method#rightIndex#0;class#SortManager#0" expanded="false" />
+            <element signature="e#6849#6850#0" expanded="false" />
+            <element signature="e#6894#6895#0" expanded="false" />
             <element signature="docComment;method#maxHeapify#0;class#SortManager#0" expanded="false" />
             <element signature="method#maxHeapify#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#maxHeapify1#0;class#SortManager#0" expanded="false" />
@@ -805,8 +1113,14 @@
             <element signature="docComment;method#currentDigitValue#0;class#SortManager#0" expanded="false" />
             <element signature="method#currentDigitValue#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#insertionSort#1;class#SortManager#0" expanded="false" />
+            <element signature="e#10171#10172#0" expanded="false" />
+            <element signature="e#10220#10221#0" expanded="false" />
             <element signature="docComment;method#quickSort#1;class#SortManager#0" expanded="false" />
+            <element signature="e#10350#10351#0" expanded="false" />
+            <element signature="e#10395#10396#0" expanded="false" />
             <element signature="docComment;method#randomizeQuickSort#1;class#SortManager#0" expanded="false" />
+            <element signature="e#10548#10549#0" expanded="false" />
+            <element signature="e#10602#10603#0" expanded="false" />
             <element signature="docComment;method#mergeSort#1;class#SortManager#0" expanded="false" />
             <element signature="method#mergeSort#1;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#heapSort#0;class#SortManager#0" expanded="false" />
@@ -814,6 +1128,8 @@
             <element signature="docComment;method#countingSort#0;class#SortManager#0" expanded="false" />
             <element signature="method#countingSort#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#radixSort#0;class#SortManager#0" expanded="false" />
+            <element signature="e#13117#13118#0" expanded="false" />
+            <element signature="e#13168#13169#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -849,7 +1165,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -858,10 +1176,17 @@
         <state relative-caret-position="3738">
           <caret line="517" column="33" selection-start-line="517" selection-start-column="33" selection-end-line="517" selection-end-column="33" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="docComment;class#SortManager#0" expanded="false" />
             <element signature="docComment;class#EInstance#0;class#SortManager#0" expanded="false" />
             <element signature="class#EInstance#0;class#SortManager#0" expanded="false" />
+            <element signature="e#791#792#0" expanded="false" />
+            <element signature="e#845#846#0" expanded="false" />
+            <element signature="e#921#922#0" expanded="false" />
+            <element signature="e#962#963#0" expanded="false" />
             <element signature="docComment;method#getInstance#0;class#SortManager#0" expanded="false" />
+            <element signature="e#1152#1153#0" expanded="false" />
+            <element signature="e#1207#1208#0" expanded="false" />
             <element signature="docComment;method#SortManager#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#insertionSort#0;class#SortManager#0" expanded="false" />
             <element signature="method#insertionSort#0;class#SortManager#0" expanded="false" />
@@ -878,8 +1203,14 @@
             <element signature="docComment;method#merge#0;class#SortManager#0" expanded="false" />
             <element signature="method#merge#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#parentIndex#0;class#SortManager#0" expanded="false" />
+            <element signature="e#6401#6402#0" expanded="false" />
+            <element signature="e#6445#6446#0" expanded="false" />
             <element signature="docComment;method#leftIndex#0;class#SortManager#0" expanded="false" />
+            <element signature="e#6624#6625#0" expanded="false" />
+            <element signature="e#6669#6670#0" expanded="false" />
             <element signature="docComment;method#rightIndex#0;class#SortManager#0" expanded="false" />
+            <element signature="e#6849#6850#0" expanded="false" />
+            <element signature="e#6894#6895#0" expanded="false" />
             <element signature="docComment;method#maxHeapify#0;class#SortManager#0" expanded="false" />
             <element signature="method#maxHeapify#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#maxHeapify1#0;class#SortManager#0" expanded="false" />
@@ -889,8 +1220,14 @@
             <element signature="docComment;method#currentDigitValue#0;class#SortManager#0" expanded="false" />
             <element signature="method#currentDigitValue#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#insertionSort#1;class#SortManager#0" expanded="false" />
+            <element signature="e#10171#10172#0" expanded="false" />
+            <element signature="e#10220#10221#0" expanded="false" />
             <element signature="docComment;method#quickSort#1;class#SortManager#0" expanded="false" />
+            <element signature="e#10350#10351#0" expanded="false" />
+            <element signature="e#10395#10396#0" expanded="false" />
             <element signature="docComment;method#randomizeQuickSort#1;class#SortManager#0" expanded="false" />
+            <element signature="e#10548#10549#0" expanded="false" />
+            <element signature="e#10602#10603#0" expanded="false" />
             <element signature="docComment;method#mergeSort#1;class#SortManager#0" expanded="false" />
             <element signature="method#mergeSort#1;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#heapSort#0;class#SortManager#0" expanded="false" />
@@ -898,6 +1235,8 @@
             <element signature="docComment;method#countingSort#0;class#SortManager#0" expanded="false" />
             <element signature="method#countingSort#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#radixSort#0;class#SortManager#0" expanded="false" />
+            <element signature="e#13117#13118#0" expanded="false" />
+            <element signature="e#13168#13169#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -906,7 +1245,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -915,10 +1256,17 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="docComment;class#SortManager#0" expanded="false" />
             <element signature="docComment;class#EInstance#0;class#SortManager#0" expanded="false" />
             <element signature="class#EInstance#0;class#SortManager#0" expanded="false" />
+            <element signature="e#791#792#0" expanded="false" />
+            <element signature="e#845#846#0" expanded="false" />
+            <element signature="e#921#922#0" expanded="false" />
+            <element signature="e#962#963#0" expanded="false" />
             <element signature="docComment;method#getInstance#0;class#SortManager#0" expanded="false" />
+            <element signature="e#1152#1153#0" expanded="false" />
+            <element signature="e#1207#1208#0" expanded="false" />
             <element signature="docComment;method#SortManager#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#insertionSort#0;class#SortManager#0" expanded="false" />
             <element signature="method#insertionSort#0;class#SortManager#0" expanded="false" />
@@ -935,8 +1283,14 @@
             <element signature="docComment;method#merge#0;class#SortManager#0" expanded="false" />
             <element signature="method#merge#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#parentIndex#0;class#SortManager#0" expanded="false" />
+            <element signature="e#6401#6402#0" expanded="false" />
+            <element signature="e#6445#6446#0" expanded="false" />
             <element signature="docComment;method#leftIndex#0;class#SortManager#0" expanded="false" />
+            <element signature="e#6624#6625#0" expanded="false" />
+            <element signature="e#6669#6670#0" expanded="false" />
             <element signature="docComment;method#rightIndex#0;class#SortManager#0" expanded="false" />
+            <element signature="e#6849#6850#0" expanded="false" />
+            <element signature="e#6894#6895#0" expanded="false" />
             <element signature="docComment;method#maxHeapify#0;class#SortManager#0" expanded="false" />
             <element signature="method#maxHeapify#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#maxHeapify1#0;class#SortManager#0" expanded="false" />
@@ -946,8 +1300,14 @@
             <element signature="docComment;method#currentDigitValue#0;class#SortManager#0" expanded="false" />
             <element signature="method#currentDigitValue#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#insertionSort#1;class#SortManager#0" expanded="false" />
+            <element signature="e#10171#10172#0" expanded="false" />
+            <element signature="e#10220#10221#0" expanded="false" />
             <element signature="docComment;method#quickSort#1;class#SortManager#0" expanded="false" />
+            <element signature="e#10350#10351#0" expanded="false" />
+            <element signature="e#10395#10396#0" expanded="false" />
             <element signature="docComment;method#randomizeQuickSort#1;class#SortManager#0" expanded="false" />
+            <element signature="e#10548#10549#0" expanded="false" />
+            <element signature="e#10602#10603#0" expanded="false" />
             <element signature="docComment;method#mergeSort#1;class#SortManager#0" expanded="false" />
             <element signature="method#mergeSort#1;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#heapSort#0;class#SortManager#0" expanded="false" />
@@ -955,6 +1315,8 @@
             <element signature="docComment;method#countingSort#0;class#SortManager#0" expanded="false" />
             <element signature="method#countingSort#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#radixSort#0;class#SortManager#0" expanded="false" />
+            <element signature="e#13117#13118#0" expanded="false" />
+            <element signature="e#13168#13169#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -970,7 +1332,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -979,10 +1343,17 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="docComment;class#SortManager#0" expanded="false" />
             <element signature="docComment;class#EInstance#0;class#SortManager#0" expanded="false" />
             <element signature="class#EInstance#0;class#SortManager#0" expanded="false" />
+            <element signature="e#791#792#0" expanded="false" />
+            <element signature="e#845#846#0" expanded="false" />
+            <element signature="e#921#922#0" expanded="false" />
+            <element signature="e#962#963#0" expanded="false" />
             <element signature="docComment;method#getInstance#0;class#SortManager#0" expanded="false" />
+            <element signature="e#1152#1153#0" expanded="false" />
+            <element signature="e#1207#1208#0" expanded="false" />
             <element signature="docComment;method#SortManager#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#insertionSort#0;class#SortManager#0" expanded="false" />
             <element signature="method#insertionSort#0;class#SortManager#0" expanded="false" />
@@ -999,8 +1370,14 @@
             <element signature="docComment;method#merge#0;class#SortManager#0" expanded="false" />
             <element signature="method#merge#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#parentIndex#0;class#SortManager#0" expanded="false" />
+            <element signature="e#6401#6402#0" expanded="false" />
+            <element signature="e#6445#6446#0" expanded="false" />
             <element signature="docComment;method#leftIndex#0;class#SortManager#0" expanded="false" />
+            <element signature="e#6624#6625#0" expanded="false" />
+            <element signature="e#6669#6670#0" expanded="false" />
             <element signature="docComment;method#rightIndex#0;class#SortManager#0" expanded="false" />
+            <element signature="e#6849#6850#0" expanded="false" />
+            <element signature="e#6894#6895#0" expanded="false" />
             <element signature="docComment;method#maxHeapify#0;class#SortManager#0" expanded="false" />
             <element signature="method#maxHeapify#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#maxHeapify1#0;class#SortManager#0" expanded="false" />
@@ -1010,8 +1387,14 @@
             <element signature="docComment;method#currentDigitValue#0;class#SortManager#0" expanded="false" />
             <element signature="method#currentDigitValue#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#insertionSort#1;class#SortManager#0" expanded="false" />
+            <element signature="e#10171#10172#0" expanded="false" />
+            <element signature="e#10220#10221#0" expanded="false" />
             <element signature="docComment;method#quickSort#1;class#SortManager#0" expanded="false" />
+            <element signature="e#10350#10351#0" expanded="false" />
+            <element signature="e#10395#10396#0" expanded="false" />
             <element signature="docComment;method#randomizeQuickSort#1;class#SortManager#0" expanded="false" />
+            <element signature="e#10548#10549#0" expanded="false" />
+            <element signature="e#10602#10603#0" expanded="false" />
             <element signature="docComment;method#mergeSort#1;class#SortManager#0" expanded="false" />
             <element signature="method#mergeSort#1;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#heapSort#0;class#SortManager#0" expanded="false" />
@@ -1019,6 +1402,8 @@
             <element signature="docComment;method#countingSort#0;class#SortManager#0" expanded="false" />
             <element signature="method#countingSort#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#radixSort#0;class#SortManager#0" expanded="false" />
+            <element signature="e#13117#13118#0" expanded="false" />
+            <element signature="e#13168#13169#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1034,7 +1419,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1043,10 +1430,17 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="docComment;class#SortManager#0" expanded="false" />
             <element signature="docComment;class#EInstance#0;class#SortManager#0" expanded="false" />
             <element signature="class#EInstance#0;class#SortManager#0" expanded="false" />
+            <element signature="e#791#792#0" expanded="false" />
+            <element signature="e#845#846#0" expanded="false" />
+            <element signature="e#921#922#0" expanded="false" />
+            <element signature="e#962#963#0" expanded="false" />
             <element signature="docComment;method#getInstance#0;class#SortManager#0" expanded="false" />
+            <element signature="e#1152#1153#0" expanded="false" />
+            <element signature="e#1207#1208#0" expanded="false" />
             <element signature="docComment;method#SortManager#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#insertionSort#0;class#SortManager#0" expanded="false" />
             <element signature="method#insertionSort#0;class#SortManager#0" expanded="false" />
@@ -1063,8 +1457,14 @@
             <element signature="docComment;method#merge#0;class#SortManager#0" expanded="false" />
             <element signature="method#merge#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#parentIndex#0;class#SortManager#0" expanded="false" />
+            <element signature="e#6401#6402#0" expanded="false" />
+            <element signature="e#6445#6446#0" expanded="false" />
             <element signature="docComment;method#leftIndex#0;class#SortManager#0" expanded="false" />
+            <element signature="e#6624#6625#0" expanded="false" />
+            <element signature="e#6669#6670#0" expanded="false" />
             <element signature="docComment;method#rightIndex#0;class#SortManager#0" expanded="false" />
+            <element signature="e#6849#6850#0" expanded="false" />
+            <element signature="e#6894#6895#0" expanded="false" />
             <element signature="docComment;method#maxHeapify#0;class#SortManager#0" expanded="false" />
             <element signature="method#maxHeapify#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#maxHeapify1#0;class#SortManager#0" expanded="false" />
@@ -1074,8 +1474,14 @@
             <element signature="docComment;method#currentDigitValue#0;class#SortManager#0" expanded="false" />
             <element signature="method#currentDigitValue#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#insertionSort#1;class#SortManager#0" expanded="false" />
+            <element signature="e#10171#10172#0" expanded="false" />
+            <element signature="e#10220#10221#0" expanded="false" />
             <element signature="docComment;method#quickSort#1;class#SortManager#0" expanded="false" />
+            <element signature="e#10350#10351#0" expanded="false" />
+            <element signature="e#10395#10396#0" expanded="false" />
             <element signature="docComment;method#randomizeQuickSort#1;class#SortManager#0" expanded="false" />
+            <element signature="e#10548#10549#0" expanded="false" />
+            <element signature="e#10602#10603#0" expanded="false" />
             <element signature="docComment;method#mergeSort#1;class#SortManager#0" expanded="false" />
             <element signature="method#mergeSort#1;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#heapSort#0;class#SortManager#0" expanded="false" />
@@ -1083,6 +1489,8 @@
             <element signature="docComment;method#countingSort#0;class#SortManager#0" expanded="false" />
             <element signature="method#countingSort#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#radixSort#0;class#SortManager#0" expanded="false" />
+            <element signature="e#13117#13118#0" expanded="false" />
+            <element signature="e#13168#13169#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1091,7 +1499,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1100,10 +1510,17 @@
         <state relative-caret-position="1408">
           <caret line="165" column="12" selection-start-line="165" selection-start-column="12" selection-end-line="165" selection-end-column="12" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="docComment;class#SortManager#0" expanded="false" />
             <element signature="docComment;class#EInstance#0;class#SortManager#0" expanded="false" />
             <element signature="class#EInstance#0;class#SortManager#0" expanded="false" />
+            <element signature="e#791#792#0" expanded="false" />
+            <element signature="e#845#846#0" expanded="false" />
+            <element signature="e#921#922#0" expanded="false" />
+            <element signature="e#962#963#0" expanded="false" />
             <element signature="docComment;method#getInstance#0;class#SortManager#0" expanded="false" />
+            <element signature="e#1152#1153#0" expanded="false" />
+            <element signature="e#1207#1208#0" expanded="false" />
             <element signature="docComment;method#SortManager#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#insertionSort#0;class#SortManager#0" expanded="false" />
             <element signature="method#insertionSort#0;class#SortManager#0" expanded="false" />
@@ -1120,8 +1537,14 @@
             <element signature="docComment;method#merge#0;class#SortManager#0" expanded="false" />
             <element signature="method#merge#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#parentIndex#0;class#SortManager#0" expanded="false" />
+            <element signature="e#6401#6402#0" expanded="false" />
+            <element signature="e#6445#6446#0" expanded="false" />
             <element signature="docComment;method#leftIndex#0;class#SortManager#0" expanded="false" />
+            <element signature="e#6624#6625#0" expanded="false" />
+            <element signature="e#6669#6670#0" expanded="false" />
             <element signature="docComment;method#rightIndex#0;class#SortManager#0" expanded="false" />
+            <element signature="e#6849#6850#0" expanded="false" />
+            <element signature="e#6894#6895#0" expanded="false" />
             <element signature="docComment;method#maxHeapify#0;class#SortManager#0" expanded="false" />
             <element signature="method#maxHeapify#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#maxHeapify1#0;class#SortManager#0" expanded="false" />
@@ -1131,8 +1554,14 @@
             <element signature="docComment;method#currentDigitValue#0;class#SortManager#0" expanded="false" />
             <element signature="method#currentDigitValue#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#insertionSort#1;class#SortManager#0" expanded="false" />
+            <element signature="e#10171#10172#0" expanded="false" />
+            <element signature="e#10220#10221#0" expanded="false" />
             <element signature="docComment;method#quickSort#1;class#SortManager#0" expanded="false" />
+            <element signature="e#10350#10351#0" expanded="false" />
+            <element signature="e#10395#10396#0" expanded="false" />
             <element signature="docComment;method#randomizeQuickSort#1;class#SortManager#0" expanded="false" />
+            <element signature="e#10548#10549#0" expanded="false" />
+            <element signature="e#10602#10603#0" expanded="false" />
             <element signature="docComment;method#mergeSort#1;class#SortManager#0" expanded="false" />
             <element signature="method#mergeSort#1;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#heapSort#0;class#SortManager#0" expanded="false" />
@@ -1140,6 +1569,8 @@
             <element signature="docComment;method#countingSort#0;class#SortManager#0" expanded="false" />
             <element signature="method#countingSort#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#radixSort#0;class#SortManager#0" expanded="false" />
+            <element signature="e#13117#13118#0" expanded="false" />
+            <element signature="e#13168#13169#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1148,7 +1579,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1157,10 +1590,17 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="docComment;class#SortManager#0" expanded="false" />
             <element signature="docComment;class#EInstance#0;class#SortManager#0" expanded="false" />
             <element signature="class#EInstance#0;class#SortManager#0" expanded="false" />
+            <element signature="e#791#792#0" expanded="false" />
+            <element signature="e#845#846#0" expanded="false" />
+            <element signature="e#921#922#0" expanded="false" />
+            <element signature="e#962#963#0" expanded="false" />
             <element signature="docComment;method#getInstance#0;class#SortManager#0" expanded="false" />
+            <element signature="e#1152#1153#0" expanded="false" />
+            <element signature="e#1207#1208#0" expanded="false" />
             <element signature="docComment;method#SortManager#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#insertionSort#0;class#SortManager#0" expanded="false" />
             <element signature="method#insertionSort#0;class#SortManager#0" expanded="false" />
@@ -1177,8 +1617,14 @@
             <element signature="docComment;method#merge#0;class#SortManager#0" expanded="false" />
             <element signature="method#merge#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#parentIndex#0;class#SortManager#0" expanded="false" />
+            <element signature="e#6401#6402#0" expanded="false" />
+            <element signature="e#6445#6446#0" expanded="false" />
             <element signature="docComment;method#leftIndex#0;class#SortManager#0" expanded="false" />
+            <element signature="e#6624#6625#0" expanded="false" />
+            <element signature="e#6669#6670#0" expanded="false" />
             <element signature="docComment;method#rightIndex#0;class#SortManager#0" expanded="false" />
+            <element signature="e#6849#6850#0" expanded="false" />
+            <element signature="e#6894#6895#0" expanded="false" />
             <element signature="docComment;method#maxHeapify#0;class#SortManager#0" expanded="false" />
             <element signature="method#maxHeapify#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#maxHeapify1#0;class#SortManager#0" expanded="false" />
@@ -1188,8 +1634,14 @@
             <element signature="docComment;method#currentDigitValue#0;class#SortManager#0" expanded="false" />
             <element signature="method#currentDigitValue#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#insertionSort#1;class#SortManager#0" expanded="false" />
+            <element signature="e#10171#10172#0" expanded="false" />
+            <element signature="e#10220#10221#0" expanded="false" />
             <element signature="docComment;method#quickSort#1;class#SortManager#0" expanded="false" />
+            <element signature="e#10350#10351#0" expanded="false" />
+            <element signature="e#10395#10396#0" expanded="false" />
             <element signature="docComment;method#randomizeQuickSort#1;class#SortManager#0" expanded="false" />
+            <element signature="e#10548#10549#0" expanded="false" />
+            <element signature="e#10602#10603#0" expanded="false" />
             <element signature="docComment;method#mergeSort#1;class#SortManager#0" expanded="false" />
             <element signature="method#mergeSort#1;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#heapSort#0;class#SortManager#0" expanded="false" />
@@ -1197,6 +1649,8 @@
             <element signature="docComment;method#countingSort#0;class#SortManager#0" expanded="false" />
             <element signature="method#countingSort#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#radixSort#0;class#SortManager#0" expanded="false" />
+            <element signature="e#13117#13118#0" expanded="false" />
+            <element signature="e#13168#13169#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1264,10 +1718,17 @@
         <state relative-caret-position="2835">
           <caret line="522" column="9" selection-start-line="522" selection-start-column="9" selection-end-line="522" selection-end-column="9" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="docComment;class#SortManager#0" expanded="false" />
             <element signature="docComment;class#EInstance#0;class#SortManager#0" expanded="false" />
             <element signature="class#EInstance#0;class#SortManager#0" expanded="false" />
+            <element signature="e#791#792#0" expanded="false" />
+            <element signature="e#845#846#0" expanded="false" />
+            <element signature="e#921#922#0" expanded="false" />
+            <element signature="e#962#963#0" expanded="false" />
             <element signature="docComment;method#getInstance#0;class#SortManager#0" expanded="false" />
+            <element signature="e#1152#1153#0" expanded="false" />
+            <element signature="e#1207#1208#0" expanded="false" />
             <element signature="docComment;method#SortManager#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#insertionSort#0;class#SortManager#0" expanded="false" />
             <element signature="method#insertionSort#0;class#SortManager#0" expanded="false" />
@@ -1284,8 +1745,14 @@
             <element signature="docComment;method#merge#0;class#SortManager#0" expanded="false" />
             <element signature="method#merge#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#parentIndex#0;class#SortManager#0" expanded="false" />
+            <element signature="e#6401#6402#0" expanded="false" />
+            <element signature="e#6445#6446#0" expanded="false" />
             <element signature="docComment;method#leftIndex#0;class#SortManager#0" expanded="false" />
+            <element signature="e#6624#6625#0" expanded="false" />
+            <element signature="e#6669#6670#0" expanded="false" />
             <element signature="docComment;method#rightIndex#0;class#SortManager#0" expanded="false" />
+            <element signature="e#6849#6850#0" expanded="false" />
+            <element signature="e#6894#6895#0" expanded="false" />
             <element signature="docComment;method#maxHeapify#0;class#SortManager#0" expanded="false" />
             <element signature="method#maxHeapify#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#maxHeapify1#0;class#SortManager#0" expanded="false" />
@@ -1295,8 +1762,14 @@
             <element signature="docComment;method#currentDigitValue#0;class#SortManager#0" expanded="false" />
             <element signature="method#currentDigitValue#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#insertionSort#1;class#SortManager#0" expanded="false" />
+            <element signature="e#10171#10172#0" expanded="false" />
+            <element signature="e#10220#10221#0" expanded="false" />
             <element signature="docComment;method#quickSort#1;class#SortManager#0" expanded="false" />
+            <element signature="e#10350#10351#0" expanded="false" />
+            <element signature="e#10395#10396#0" expanded="false" />
             <element signature="docComment;method#randomizeQuickSort#1;class#SortManager#0" expanded="false" />
+            <element signature="e#10548#10549#0" expanded="false" />
+            <element signature="e#10602#10603#0" expanded="false" />
             <element signature="docComment;method#mergeSort#1;class#SortManager#0" expanded="false" />
             <element signature="method#mergeSort#1;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#heapSort#0;class#SortManager#0" expanded="false" />
@@ -1304,6 +1777,8 @@
             <element signature="docComment;method#countingSort#0;class#SortManager#0" expanded="false" />
             <element signature="method#countingSort#0;class#SortManager#0" expanded="false" />
             <element signature="docComment;method#radixSort#0;class#SortManager#0" expanded="false" />
+            <element signature="e#13117#13118#0" expanded="false" />
+            <element signature="e#13168#13169#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1312,7 +1787,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1743">
           <caret line="123" column="36" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="36" />
-          <folding />
+          <folding>
+            <element signature="e#0#53706#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#11566#11567#0" expanded="false" />
+            <element signature="e#11597#11598#0" expanded="false" />
+            <element signature="e#26565#26566#0" expanded="false" />
+            <element signature="e#26601#26602#0" expanded="false" />
+            <element signature="e#40171#40172#0" expanded="false" />
+            <element signature="e#40220#40221#0" expanded="false" />
+            <element signature="e#40917#40918#0" expanded="false" />
+            <element signature="e#40958#40959#0" expanded="false" />
+            <element signature="e#41780#41781#0" expanded="false" />
+            <element signature="e#41834#41835#0" expanded="false" />
+            <element signature="e#43077#43078#0" expanded="false" />
+            <element signature="e#43127#43128#0" expanded="false" />
+            <element signature="e#44970#44971#0" expanded="false" />
+            <element signature="e#45051#45052#0" expanded="false" />
+            <element signature="e#51559#51560#0" expanded="false" />
+            <element signature="e#51621#51622#0" expanded="false" />
+            <element signature="e#51882#51883#0" expanded="false" />
+            <element signature="e#51946#51947#0" expanded="false" />
+            <element signature="e#52191#52192#0" expanded="false" />
+            <element signature="e#52255#52256#0" expanded="false" />
+            <element signature="e#52326#52327#0" expanded="false" />
+            <element signature="e#52394#52395#0" expanded="false" />
+            <element signature="e#52670#52671#0" expanded="false" />
+            <element signature="e#52739#52740#0" expanded="false" />
+            <element signature="e#52802#52803#0" expanded="false" />
+            <element signature="e#52848#52849#0" expanded="false" />
+            <element signature="e#53097#53098#0" expanded="false" />
+            <element signature="e#53158#53159#0" expanded="false" />
+            <element signature="e#53238#53239#0" expanded="false" />
+            <element signature="e#53302#53303#0" expanded="false" />
+            <element signature="e#53360#53361#0" expanded="false" />
+            <element signature="e#53422#53423#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1320,7 +1830,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15792">
           <caret line="803" column="16" selection-start-line="803" selection-start-column="16" selection-end-line="803" selection-end-column="16" />
-          <folding />
+          <folding>
+            <element signature="e#0#40012#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#4246#4247#0" expanded="false" />
+            <element signature="e#4278#4279#0" expanded="false" />
+            <element signature="e#14985#14986#0" expanded="false" />
+            <element signature="e#15015#15016#0" expanded="false" />
+            <element signature="e#15343#15344#0" expanded="false" />
+            <element signature="e#15374#15375#0" expanded="false" />
+            <element signature="e#19907#19908#0" expanded="false" />
+            <element signature="e#19950#19951#0" expanded="false" />
+            <element signature="e#20319#20320#0" expanded="false" />
+            <element signature="e#20359#20360#0" expanded="false" />
+            <element signature="e#20831#20832#0" expanded="false" />
+            <element signature="e#20871#20872#0" expanded="false" />
+            <element signature="e#21348#21349#0" expanded="false" />
+            <element signature="e#21388#21389#0" expanded="false" />
+            <element signature="e#21879#21880#0" expanded="false" />
+            <element signature="e#21919#21920#0" expanded="false" />
+            <element signature="e#22432#22433#0" expanded="false" />
+            <element signature="e#22472#22473#0" expanded="false" />
+            <element signature="e#22924#22925#0" expanded="false" />
+            <element signature="e#22948#22949#0" expanded="false" />
+            <element signature="e#23994#23995#0" expanded="false" />
+            <element signature="e#24036#24037#0" expanded="false" />
+            <element signature="e#24380#24381#0" expanded="false" />
+            <element signature="e#24405#24406#0" expanded="false" />
+            <element signature="e#29974#29975#0" expanded="false" />
+            <element signature="e#30017#30018#0" expanded="false" />
+            <element signature="e#32148#32149#0" expanded="false" />
+            <element signature="e#32194#32195#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1328,14 +1869,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/SearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="116" column="4" selection-start-line="116" selection-start-column="4" selection-end-line="116" selection-end-column="4" />
+        <state relative-caret-position="525">
+          <caret line="108" column="5" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
           <folding>
             <element signature="docComment;class#SearchTree#0" expanded="false" />
             <element signature="class#TreeNode#0;class#SearchTree#0" expanded="false" />
@@ -1355,6 +1898,51 @@
             <element signature="method#transplant#0;class#SearchTree#0" expanded="false" />
             <element signature="docComment;method#treeDelete#0;class#SearchTree#0" expanded="false" />
             <element signature="method#treeDelete#0;class#SearchTree#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_92/src.zip!/java/util/Deque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="192" column="17" selection-start-line="192" selection-start-column="17" selection-end-line="192" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_92/src.zip!/java/util/ArrayDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="753" column="16" selection-start-line="753" selection-start-column="16" selection-end-line="753" selection-end-column="16" />
+          <folding>
+            <element signature="e#6490#6491#0" expanded="true" />
+            <element signature="e#6531#6532#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_92/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="452" column="9" selection-start-line="452" selection-start-column="9" selection-end-line="452" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_92/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="180" column="12" selection-start-line="180" selection-start-column="12" selection-end-line="180" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graph/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
