@@ -5,7 +5,7 @@ package Tree;
  */
 public class SearchTree
 {
-    public static class TreeNode {
+    private static class TreeNode {
         TreeNode parent;
         TreeNode left;
         TreeNode right;
