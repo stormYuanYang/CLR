@@ -171,7 +171,7 @@ public class RedBlackTree
                         // 旋转之后，儿子成为父亲，父亲成为儿子，而爷爷保持不变
                         rightRotate(tree, z);
                     }
-                    z.parent.red = false;   // z祖父涂黑
+                    z.parent.red = false;   // z父亲涂黑
                     grandfather.red = true; // z爷爷涂红
                     leftRotate(tree, grandfather);  // 以爷爷为轴心左旋
                 }
@@ -179,6 +179,8 @@ public class RedBlackTree
         }
         tree.root.red = false;  // 根节点涂黑
     }
+
+
 
     /****************************/
     private TreeNode root; // 树的根结点
