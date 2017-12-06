@@ -8,15 +8,15 @@ public class RedBlackTree
     private static class TreeNode
     {
         int value;              // 携带的值
-        boolean color = false;  // false代表结点为黑色，true代表结点为红色
+        boolean red;            // 结点颜色(或红或黑,true为红,false为黑)
         TreeNode parent;        // 指向父亲的引用
         TreeNode left;          // 指向左儿子的引用
         TreeNode right;         // 指向右儿子的引用
 
-        TreeNode(int value, boolean color, TreeNode parent, TreeNode left, TreeNode right)
+        TreeNode(int value, boolean red, TreeNode parent, TreeNode left, TreeNode right)
         {
             this.value = value;
-            this.color = color;
+            this.red = red;
             this.parent = parent;
             this.left = left;
             this.right = right;
@@ -24,65 +24,75 @@ public class RedBlackTree
     }
 
     /**
-     * 左旋：通过指针操作，在常数时间内局部改变树的结构
+     *  左旋: 消耗常数时间进行的指针操作,改变树的结构
+     *  轴心、轴心的右儿子(对应右旋中的y)都不能为空,为空就无法进行旋转
+     *  以x结点为轴心，将其右儿子向左旋转(参考汽车方向盘的左转)
      * @param tree  树
-     * @param x     轴心(以此为支点进行旋转)
+     * @param x     轴心
      */
-    private static void leftRotate(RedBlackTree tree, TreeNode x)
+    public static void leftRotate(RedBlackTree tree, TreeNode x)
     {
-        TreeNode y = x.right;   // y是x的右儿子
-        if (y == tree.nil)
+        // 树、x结点、x的右儿子有一个为空,就无法左旋
+        if (tree == null || x == null || x.right == null || x.right == tree.nilNode)
             return;
-        x.right = y.left;       // x持有y的左儿子
-        if (y.left != tree.nil)
-            y.left.parent = x;  // y的左儿子的父亲不再是y而是x
-        y.parent = x.parent;    // y的父亲原本是x，现在改成x的父亲
-        if (x.parent == tree.nil)
-            tree.root = y;      // 设置根节点
-        else if (x == x.parent.left)
-            x.parent.left = y;  // 设置y为其父亲的左儿子
+
+        TreeNode y = x.right;   // x的右儿子被y引用
+        x.right = y.left;   // y的左儿子β也成为x的右儿子
+
+        y.parent = x.parent; // x的父亲成为y的父亲
+        if (x.parent == tree.nilNode) // x是根节点
+            tree.root = y;  // 重新设置根节点
+        else if (x == x.parent.left) // x是父亲的左儿子
+            x.parent.left = y; // y成为x父亲的左儿子
         else
-            x.parent.right = y; // 设置y为其父亲的右儿子
-        y.left = x;             // 设置x为y的左儿子
-        x.parent = y;           // 设置y为x的父亲
+            x.parent.right = y; // y成为x父亲的右儿子
+
+        x.parent = y; // y成为x的父亲
+        y.left = x; // x成为y的左儿子
     }
 
     /**
-     * 右旋：通过指针操作，在常数时间内局部改变树的结构
+     * 右旋：消耗常数时间进行的指针操作，改变树的结构
+     * 轴心、轴心的左儿子(对应左旋中的x)都不能为空，为空就无法进行旋转
+     * 以y结点为轴心，将其左儿子向右旋转(参考汽车方向盘的右转)
      * @param tree  树
-     * @param x     轴心(以此为支点进行旋转)
+     * @param y     轴心
      */
-    public static void rightRotate(RedBlackTree tree, TreeNode x)
+    public static void rightRotate(RedBlackTree tree, TreeNode y)
     {
-        TreeNode y = x.parent;  // y是x的父亲
-        if (y == tree.nil)      // x没有父亲结点,那么x应该是树的根节点
+        // 树、y结点、y的左儿子有一个为空,就无法右旋
+        if (tree == null || y == null || y.left == null || y.left == tree.nilNode)
             return;
-        y.left = x.right;       // y的左儿子由x变更为x的右儿子
-        if (x.right != tree.nil)
-            x.right.parent = y; // x的右儿子的父亲变更为y
-        x.parent = y.parent;    // x的父亲由y变更为y的父亲
-        if (y.parent == tree.nil)
-            tree.root = x;      // 设置根节点
-        else if (y.parent.left == y)
-            y.parent.left = x;  // 设置x为其父亲的左儿子
+
+        TreeNode x = y.left;    // y的左儿子被x引用
+        y.left = x.right;   // x的右儿子β也成为y的左儿子
+
+        x.parent = y.parent;    // y的父亲成为x的父亲
+        if (y.parent == tree.nilNode)   // y是根节点
+            tree.root = x;
+        else if (y == y.parent.left)    // y是其父亲的左儿子
+            y.parent.left = x;  // x成为y父亲的左儿子
         else
-            y.parent.right = x; // 设置x为其父亲的右儿子
-        x.right = y;            // x的右儿子变更为y
-        y.parent = x;           // y的父亲变更为x
+            y.parent.right = x; // x成为y父亲的右儿子
+
+        y.parent = x;   // x成为y的父亲
+        x.right = y;    // y成为x的右儿子
     }
 
     /**
-     * 插入一个结点到红黑树中，并保持其红黑树的性质
-     * @param tree  树
+     * 向树中插入一个结点，并保持红黑树性质
+     * @param tree  红黑树
      * @param z     被插入的结点
      */
     public static void insert(RedBlackTree tree, TreeNode z)
     {
-        TreeNode y = tree.nil;
+        if (tree == null || z == null)
+            return;
+        TreeNode y = tree.nilNode;
         TreeNode x = tree.root;
 
-        // 从根结点开始，在树中下降找到z的父亲
-        while (x != tree.nil)
+        // 根据z携带的值找到z的父亲
+        while (x != tree.nilNode)
         {
             y = x;
             if (z.value < x.value)
@@ -90,80 +100,88 @@ public class RedBlackTree
             else
                 x = x.right;
         }
-        z.parent = y;                   // 设置z的父亲为y
 
-        if (y == tree.nil)
-            tree.root = z;              // 设置根节点为z
-        else if (z.value < y.value)
-            y.left = z;                 // 设置y的左儿子为z
-        else
-            y.right = z;                // 设置y的右儿子为z
+        z.parent = y;   // y成为z的父亲
+        if (y == tree.nilNode)  // 未在树中找到z的父亲
+            tree.root = z;  // z成为树的根结点
+        else if (x == y.left)    // x是父亲的左儿子
+            y.left = z; // z成为y的左儿子
+        else    // x是父亲的右儿子
+            y.right = z;    // z成为y的右儿子
 
-        z.left = tree.nil;              // 设置z的左儿子为null
-        z.right = tree.nil;             // 设置z的右儿子为null
-        z.color = true;                 // 设置z的颜色为红色
-        insertFixup(tree, z);           // 保持红黑树的性质
+        z.left = tree.nilNode;  // 哨兵结点成为z的左儿子
+        z.right = tree.nilNode; // 哨兵结点成为z的右儿子
+        z.red = true;   // z涂红
+
+        insertFixup(tree, z);   // 插入新节点后保持红黑树的性质
     }
 
     /**
-     * 执行这个函数保持红黑树的性质
-     * @param tree      树
-     * @param z         被插入的结点
+     * 保持红黑树的性质
+     * @param tree  树
+     * @param z     插入的结点(红色) 左儿子、右儿子都是黑色的(tree.nilNode)
      */
     private static void insertFixup(RedBlackTree tree, TreeNode z)
     {
-        while (z.parent.color)                              // z父亲是红色的(根据红黑性质保证了z的爷爷是存在的)
+        if (tree == null || z == null)
+            return;
+        while (z.parent.red)    // z父亲为红色
         {
-            TreeNode y = tree.nil;
-            if (z.parent == z.parent.parent.left)           // z父亲是z爷爷的左儿子
+            TreeNode grandfather = z.parent.parent; // 获取z爷爷的引用
+            if (z.parent == grandfather.left)   // z父亲是z爷爷的左儿子
             {
-                y = z.parent.parent.right;                  // 设置y为z爷爷的右儿子(即y是z的叔叔)
-                if (y.color)                                // y是红色的
+                TreeNode rightUncle = grandfather.right;    // 获取z右叔叔的引用
+                if (rightUncle.red) // 叔叔为红色
                 {
-                    z.parent.color = false;                 // 设置z父亲的颜色为黑色
-                    y.color = false;                        // 设置y的颜色为黑色
-                    z.parent.parent.color = true;           // 设置z爷爷的颜色为红色
-                    z = z.parent.parent;                    // z的引用指向z的爷爷
+                    z.parent.red = false;   // z父亲涂黑
+                    rightUncle.red = false; // z叔叔涂黑
+                    grandfather.red = true; // z爷爷涂红
+                    z = grandfather;    // z指向z爷爷
                 }
                 else
                 {
-                    if (z == z.parent.right)                // z是z父亲的右儿子
+                    if (z == z.parent.right)    // z是父亲的右儿子
                     {
-                        z = z.parent;                       // z的引用指向z的父亲
-                        leftRotate(tree, z);                // 以z为轴心左旋
+                        z = z.parent;   // z指向z父亲
+                        // 以z为轴心左旋(并不会改变祖父的位置,所以即使旋转之后依然有z.parent.parent==grandfather)
+                        // 旋转之后，儿子成为父亲，父亲成为儿子，而爷爷保持不变
+                        leftRotate(tree, z);
                     }
-                    z.parent.color = false;                 // 设置z父亲的颜色为黑色
-                    z.parent.parent.color = true;           // 设置z爷爷的颜色为红色
-                    rightRotate(tree, z.parent);            // 以z父亲为轴心右旋
+                    z.parent.red = false;   // z父亲涂黑
+                    grandfather.red = true; // z爷爷图红
+                    rightRotate(tree, grandfather); // 以爷爷为轴心右旋
                 }
             }
-            else                                            // z的父亲是z爷爷的右儿子
+            else    // z父亲是z爷爷的右儿子
             {
-                y = z.parent.parent.left;                   // 设置y为z爷爷的左儿子
-                if (y.color)                                // y是红色的
+                TreeNode leftUncle = grandfather.left;  // 获取z左叔叔的引用
+                if (leftUncle.red)  // 叔叔为红色
                 {
-                    z.parent.color = false;                 // 设置z父亲的颜色为黑色
-                    y.color = false;                        // 设置y的颜色为黑色
-                    z.parent.parent.color = true;           // 设置z爷爷的眼色为红色
-                    z = z.parent.parent;                    // z的引用指向z的爷爷
+                    z.parent.red = false;   // z父亲涂黑
+                    leftUncle.red = false;  // z叔叔涂黑
+                    grandfather.red = true; // z爷爷涂红
+                    z = grandfather;    // z指向z爷爷
                 }
                 else
                 {
-                    if (z == z.parent.left)                 // z是z父亲的左儿子
+                    if (z == z.parent.left) // z是父亲的左儿子
                     {
-                        z = z.parent;                       // z的引用指向z的父亲
-                        rightRotate(tree, z.left);          // 以原来的z(父亲的左儿子)为轴心右旋
+                        z = z.parent;   // z指向父亲
+                        // 以z为轴心右旋(并不会改变祖父的位置,所以即使旋转之后依然有z.parent.parent==grandfather)
+                        // 旋转之后，儿子成为父亲，父亲成为儿子，而爷爷保持不变
+                        rightRotate(tree, z);
                     }
-                    z.parent.color = false;                 // 设置z父亲的颜色为黑色
-                    z.parent.parent.color = true;           // 设置z爷爷的颜色为红色
-                    leftRotate(tree, z.parent.parent);      // 以z爷爷为轴心左旋
+                    z.parent.red = false;   // z祖父涂黑
+                    grandfather.red = true; // z爷爷涂红
+                    leftRotate(tree, grandfather);  // 以爷爷为轴心左旋
                 }
             }
         }
-        tree.root.color = false;
+        tree.root.red = false;  // 根节点涂黑
     }
 
     /****************************/
-    private TreeNode root;  // 树的根结点
-    private final TreeNode nil = new TreeNode(0, false, null, null, null);// 哨兵结点
+    private TreeNode root; // 树的根结点
+    // 哨兵结点(黑色),表示null,代表 根节点的父节点、所有的叶子结点
+    private final TreeNode nilNode = new TreeNode(0, false, null, null, null);
 }
