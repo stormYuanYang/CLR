@@ -1,5 +1,8 @@
 package Tree;
 
+import javax.swing.event.TreeWillExpandListener;
+import java.util.Random;
+
 /**
  * Created by yangyuan on 2017/11/22.
  */
@@ -20,6 +23,11 @@ public class RedBlackTree
             this.parent = parent;
             this.left = left;
             this.right = right;
+        }
+
+        TreeNode(int value)
+        {
+            this.value = value;
         }
     }
 
@@ -104,9 +112,9 @@ public class RedBlackTree
         z.parent = y;   // y成为z的父亲
         if (y == tree.nilNode)  // 未在树中找到z的父亲
             tree.root = z;  // z成为树的根结点
-        else if (x == y.left)    // x是父亲的左儿子
+        else if (z.value < y.value)    // z值小于y的值所以应该是y的左儿子
             y.left = z; // z成为y的左儿子
-        else    // x是父亲的右儿子
+        else    // z值大于等于y的值所以应该是y的右儿子
             y.right = z;    // z成为y的右儿子
 
         z.left = tree.nilNode;  // 哨兵结点成为z的左儿子
@@ -180,10 +188,47 @@ public class RedBlackTree
         tree.root.red = false;  // 根节点涂黑
     }
 
-
+    public static void main(String[] args)
+    {
+        RedBlackTree tree = new RedBlackTree();
+        Random random = new Random();
+        for (int i = 0; i < 500; i++)
+        {
+            int x = random.nextInt(100);
+            insert(tree, new TreeNode(x));
+        }
+        tree.inorderTreeWalk();
+    }
 
     /****************************/
+    private final TreeNode nilNode;// 哨兵结点(黑色),表示null,代表 根节点的父节点、所有的叶子结点
     private TreeNode root; // 树的根结点
-    // 哨兵结点(黑色),表示null,代表 根节点的父节点、所有的叶子结点
-    private final TreeNode nilNode = new TreeNode(0, false, null, null, null);
+
+    public RedBlackTree()
+    {
+        nilNode = new TreeNode(0, false, null, null, null);
+        root = nilNode;
+    }
+
+    /**
+     * 中序遍历
+     * @param x 起点
+     */
+    private void inorderTreeWalk(TreeNode x)
+    {
+        if (x == null || x == this.nilNode)
+            return;
+        inorderTreeWalk(x.left);
+        System.out.print(x.value + " ");
+        inorderTreeWalk(x.right);
+    }
+
+    /**
+     * 以root为起点进行中序遍历
+     */
+    public void inorderTreeWalk()
+    {
+        inorderTreeWalk(root);
+        System.out.println();
+    }
 }
