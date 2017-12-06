@@ -1,6 +1,5 @@
 package Tree;
 
-import javax.swing.event.TreeWillExpandListener;
 import java.util.Random;
 
 /**
@@ -10,24 +9,24 @@ public class RedBlackTree
 {
     private static class TreeNode
     {
-        int value;              // 携带的值
+        int order;              // 比较结点顺序的值(不能有相同的值)
         boolean red;            // 结点颜色(或红或黑,true为红,false为黑)
         TreeNode parent;        // 指向父亲的引用
         TreeNode left;          // 指向左儿子的引用
         TreeNode right;         // 指向右儿子的引用
 
-        TreeNode(int value, boolean red, TreeNode parent, TreeNode left, TreeNode right)
+        TreeNode(int order, boolean red, TreeNode parent, TreeNode left, TreeNode right)
         {
-            this.value = value;
+            this.order = order;
             this.red = red;
             this.parent = parent;
             this.left = left;
             this.right = right;
         }
 
-        TreeNode(int value)
+        TreeNode(int order)
         {
-            this.value = value;
+            this.order = order;
         }
     }
 
@@ -103,7 +102,7 @@ public class RedBlackTree
         while (x != tree.nilNode)
         {
             y = x;
-            if (z.value < x.value)
+            if (z.order < x.order)
                 x = x.left;
             else
                 x = x.right;
@@ -112,7 +111,7 @@ public class RedBlackTree
         z.parent = y;   // y成为z的父亲
         if (y == tree.nilNode)  // 未在树中找到z的父亲
             tree.root = z;  // z成为树的根结点
-        else if (z.value < y.value)    // z值小于y的值所以应该是y的左儿子
+        else if (z.order < y.order)    // z顺序值小于y的顺序值所以应该是y的左儿子
             y.left = z; // z成为y的左儿子
         else    // z值大于等于y的值所以应该是y的右儿子
             y.right = z;    // z成为y的右儿子
@@ -191,11 +190,9 @@ public class RedBlackTree
     public static void main(String[] args)
     {
         RedBlackTree tree = new RedBlackTree();
-        Random random = new Random();
-        for (int i = 0; i < 500; i++)
+        for (int i = 500; i > 0; i--)
         {
-            int x = random.nextInt(100);
-            insert(tree, new TreeNode(x));
+            insert(tree, new TreeNode(i));
         }
         tree.inorderTreeWalk();
     }
@@ -219,7 +216,7 @@ public class RedBlackTree
         if (x == null || x == this.nilNode)
             return;
         inorderTreeWalk(x.left);
-        System.out.print(x.value + " ");
+        System.out.print(x.order + " ");
         inorderTreeWalk(x.right);
     }
 
